@@ -7,9 +7,12 @@ import UserMenu from "./UserMenu";
 
 function Header() {
   return (
-    <header className="bg-white flex items-center justify-between px-5 py-4 text-lg font-medium">
+    <header
+      className="bg-white flex items-center justify-between px-5 py-3
+ text-base font-medium"
+    >
       <Link href="/">
-        <Image src={logo} className="w-40" />
+        <Image src={logo} className="w-36" />
       </Link>
 
       <nav className="flex gap-4">
