@@ -14,7 +14,7 @@ function Produtos() {
       <Header />
 
       <main className="w-[90vw] m-auto mt-5">
-        <h1 className="text-2xl">Produtos</h1>
+        <h1 className="text-2xl mb-4">Produtos</h1>
 
         <SearchBar />
 
@@ -48,7 +48,6 @@ function Produtos() {
           })}
         </table>
       </main>
-
     </>
   );
 }
