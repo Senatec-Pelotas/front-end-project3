@@ -3,6 +3,7 @@
 import userPicture from "../assets/foto-perfil.png";
 import { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 import React from "react";
 
@@ -31,7 +32,10 @@ function UserMenu() {
           </button>
           <hr className="text-[#C8C8C8]" />
           <button className="hover:text-green-600 ease-in-out duration-300">
+            <Link href="../pages/perfil"
+            className="hover:text-green-600 ease-in-out duration-300">
             Opções
+            </Link>
           </button>
         </dialog>
       ) : (
