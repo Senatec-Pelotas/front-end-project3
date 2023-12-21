@@ -46,23 +46,12 @@ function Header() {
         >
           Equipe
         </Link>
-        <Link
-          href="../pages/estoque"
-          className="hover:text-green-600 ease-in-out duration-300"
-        >
-          Estoque
-        </Link>
+
         <Link
           href="../pages/comissoes"
           className="hover:text-green-600 ease-in-out duration-300"
         >
           Comissões
-        </Link>
-        <Link
-          href="../pages/relatorios"
-          className="hover:text-green-600 ease-in-out duration-300"
-        >
-          Relatórios
         </Link>
       </nav>
 
