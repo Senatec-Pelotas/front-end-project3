@@ -24,7 +24,7 @@ export default function Clientes() {
             onClick={() => SetIsOverlayOpen(!IsOverlayOpen)}
             className=" bg-primary text-white px-3 py-1 rounded-md"
           >
-            + Adicionar Cliente
+            Adicionar Cliente
           </button>
         </div>
 

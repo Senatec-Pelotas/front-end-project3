@@ -41,6 +41,24 @@ export default function Home() {
             <Image src={moneyIcon} alt="" />
           </div>
         </section>
+        <section className="grid grid-cols-3 gap-x-4">
+          <div>
+            <div>
+            <h1 className="text-2xl mb-4 mt-4">Analítica de Vendas</h1>
+            </div>
+            <div>
+              
+            </div>
+          </div>
+          <div>
+            <div>
+            <h1 className="text-2xl mb-4 mt-4">Lucros</h1>
+            </div>
+            <div>
+
+            </div>
+          </div>
+        </section>
       </main>
     </>
   );
